@@ -1,0 +1,6 @@
+services:
+    deadromeo.number.listener:
+        class: deadromeo\number\event\listener
+        arguments:
+        tags:
+            - { name: event.listener }
