@@ -1,27 +1,26 @@
 {
-	"name": "deadromeo/number",
-	"type": "phpbb-extension",
-	"description": "Расширение добавляет нумерацию сообщений в темах",
-	"homepage": "http://phpbbworld.ru/viewtopic.php?f=6&t=75",
-	"version": "1.0.0",
-	"time": "2015-01-11",
-	"license": "GPL-2.0",
-	"authors": [{
-			"name": "DeaDRoMeO",
-			"homepage": "http://hello-vitebsk.ru",
-			"role": "Developer"
-		}],
-	"require": {
-		"php": ">=5.3.3",
-		"phpbb/phpbb": ">=3.3.0"
-	},
-	"extra": {
-		"display-name": "NumPosts",
-		"soft-require": {
-         "phpbb/phpbb": ">=3.3.0"
-		 }
-	}
-
+  "name": "deadromeo/number",
+  "type": "phpbb-extension",
+  "description": "Расширение добавляет нумерацию сообщений в темах",
+  "homepage": "http://phpbbworld.ru/viewtopic.php?f=6&t=75",
+  "version": "1.0.0",
+  "time": "2015-01-11",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "DeaDRoMeO",
+      "homepage": "http://hello-vitebsk.ru",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "phpbb/phpbb": ">=3.3.0"
+  },
+  "extra": {
+    "display-name": "NumPosts",
+    "soft-require": {
+      "phpbb/phpbb": ">=3.3.0"
+    }
+  }
 }
-
-
